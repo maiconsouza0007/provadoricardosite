@@ -1,0 +1,193 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 20px;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+main {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+main {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+
+li {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+@media screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+
+  header input[type="text"],
+  header button {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  main {
+    padding: 0 10px;
+  }
+}
+/* Estilos para os botões e texto da tarefa */
+.edit-btn,
+.delete-btn,
+.task-text {
+  cursor: pointer;
+}
+
+/* Estilos para mudar o cursor ao passar o mouse sobre os botões */
+.edit-btn:hover,
+.delete-btn:hover {
+  cursor: pointer;
+}
+/* Estilos para centralizar o layout e definir fontes */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Teko', sans-serif; /* Usando a fonte Teko */
+  background-color: CadetBlue; /* Cor de fundo da página */
+}
+
+
+header {
+  margin-bottom: 20px;
+}
+
+
+.edit-btn,
+.delete-btn,
+.task-text {
+  cursor: pointer;
+  transition: background-color 0.3s; 
+}
+
+
+.edit-btn:hover,
+.delete-btn:hover,
+.task-text:hover {
+  background-color: lightgray;
+}
+
+
+.completed {
+  background-color: Beige; /* Cor de fundo da tarefa selecionada */
+  opacity: 0.4; /* Texto desenvolvido por: Opacidade 0.4 */
+}
+
+
+
